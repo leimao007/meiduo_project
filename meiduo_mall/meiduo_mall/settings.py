@@ -24,7 +24,8 @@ SECRET_KEY = '#^au-%_0)x&^hf+atyc0t5v6pwdx5^6wj)6k+sno&e1(_7i$xr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# we could use www.meiduo.site:8000 to log in
+ALLOWED_HOSTS = ['www.meiduo.site', '127.0.0.1']
 
 # Application definition
 
@@ -35,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'apps.users',
 ]
 
 MIDDLEWARE = [
@@ -174,3 +176,6 @@ LOGGING = {
         },
     }
 }
+
+# django has its own user , we need this to refer to our define user
+AUTH_USER_MODEL = 'users.User'

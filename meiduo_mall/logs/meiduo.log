@@ -8,3 +8,19 @@ INFO 2023-03-26 05:11:07,477 urls 28 user login
 WARNING 2023-03-26 05:11:07,477 urls 29 out of memory for redis
 ERROR 2023-03-26 05:11:07,477 urls 30 not exist
 INFO 2023-03-26 05:11:07,478 basehttp 154 "GET /log/ HTTP/1.1" 200 3
+INFO 2023-03-26 05:25:36,215 autoreload 597 Watching for file changes with StatReloader
+ERROR 2023-03-26 05:26:59,488 exception 75 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2023-03-26 05:26:59,508 log 222 Bad Request: /log/
+WARNING 2023-03-26 05:26:59,508 basehttp 154 "GET /log/ HTTP/1.1" 400 64884
+ERROR 2023-03-26 05:26:59,558 exception 75 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2023-03-26 05:26:59,580 log 222 Bad Request: /favicon.ico
+WARNING 2023-03-26 05:26:59,580 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 64768
+INFO 2023-03-26 05:30:22,386 autoreload 597 Watching for file changes with StatReloader
+WARNING 2023-03-26 05:30:24,101 log 222 Not Found: /
+WARNING 2023-03-26 05:30:24,101 basehttp 154 "GET / HTTP/1.1" 404 2030
+INFO 2023-03-26 05:30:44,753 urls 28 user login
+WARNING 2023-03-26 05:30:44,753 urls 29 out of memory for redis
+ERROR 2023-03-26 05:30:44,753 urls 30 not exist
+INFO 2023-03-26 05:30:44,754 basehttp 154 "GET /log/ HTTP/1.1" 200 3
+WARNING 2023-03-26 05:30:44,771 log 222 Not Found: /favicon.ico
+WARNING 2023-03-26 05:30:44,771 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2087
