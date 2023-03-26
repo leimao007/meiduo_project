@@ -1,0 +1,10 @@
+INFO 2023-03-26 04:59:12,683 autoreload 597 Watching for file changes with StatReloader
+INFO 2023-03-26 04:59:15,931 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2023-03-26 05:09:49,540 autoreload 597 Watching for file changes with StatReloader
+INFO 2023-03-26 05:09:56,890 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2023-03-26 05:11:02,881 autoreload 597 Watching for file changes with StatReloader
+INFO 2023-03-26 05:11:07,475 basehttp 154 "GET /log HTTP/1.1" 301 0
+INFO 2023-03-26 05:11:07,477 urls 28 user login
+WARNING 2023-03-26 05:11:07,477 urls 29 out of memory for redis
+ERROR 2023-03-26 05:11:07,477 urls 30 not exist
+INFO 2023-03-26 05:11:07,478 basehttp 154 "GET /log/ HTTP/1.1" 200 3
